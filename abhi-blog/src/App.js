@@ -10,5 +10,4 @@ function App() {
     </Base>
   );
 }
-
 export default App;
