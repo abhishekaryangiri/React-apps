@@ -1,13 +1,13 @@
-import { Button } from 'reactstrap';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Base from './components/Base';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to landing page</h1>
-      <Button>Submit here </Button>
-    </div>
+    <Base>
+<h2>This is  footer</h2>
+
+    </Base>
   );
 }
 
